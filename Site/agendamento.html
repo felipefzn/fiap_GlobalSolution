@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,14 +11,16 @@
 <body>
     <div class="container">
         <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-          <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">            
-            <span class="fs-4">MedHorizon</span>
-          </a>
+          <a href="index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">            
+            <span class="fs-4">Med<span class="text-primary">Horizon</span></span>
+          </a> 
     
           <ul class="nav nav-pills">
             <li class="nav-item"><a href="index.html" class="nav-link" aria-current="page">Inicio</a></li>
             <li class="nav-item"><a href="agendamento.html" class="nav-link active">Agendamentos</a></li>
-            <li class="nav-item"><a href="doencas.html" class="nav-link">Prevenção</a></li>            
+            <li class="nav-item"><a href="doencas.html" class="nav-link">Prevenção</a></li>
+            <li class="nav-item"><a href="historico.html" class="nav-link">Histórico</a></li>           
+            <li class="nav-item"><a href="medicos.html" class="nav-link">Médicos</a></li>     
           </ul>
         </header>
       </div>
@@ -97,15 +99,15 @@
   
               <div class="col-12">
                 <label for="address" class="form-label">Endereço</label>
-                <input type="text" class="form-control" id="address" placeholder="1234 Main St" required>
+                <input type="text" class="form-control" id="address" placeholder="Rua 123" required>
                 <div class="invalid-feedback">
-                  Please enter your shipping address.
+                  Informe seu Endereço
                 </div>
               </div>
   
               <div class="col-12">
                 <label for="address2" class="form-label">Endereço 2 <span class="text-body-secondary">(Opcional)</span></label>
-                <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+                <input type="text" class="form-control" id="address2" placeholder="Apartamento ou Casa">
               </div>
   
               <div class="col-md-5">
@@ -115,7 +117,7 @@
                   <option>Brasil</option>
                 </select>
                 <div class="invalid-feedback">
-                  Please select a valid country.
+                  Por favor, selecione um país válido!
                 </div>
               </div>
   
@@ -131,78 +133,31 @@
                   Please provide a valid state.
                 </div>
               </div>
-               
   
             <hr class="my-4">
-  
-            <!-- <div class="form-check">
-              <input type="checkbox" class="form-check-input" id="same-address">
-              <label class="form-check-label" for="same-address">Shipping address is the same as my billing address</label>
-            </div> -->
-  
-            <div class="form-check">
-              <input type="checkbox" class="form-check-input" id="save-info">
-              <label class="form-check-label" for="save-info">Salvar informações para consultas futuras</label>
-            </div>
-  
-            <hr class="my-4">
-  
-            <!-- <h4 class="mb-3">Payment</h4>
-  
-            <div class="my-3">
-              <div class="form-check">
-                <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked required>
-                <label class="form-check-label" for="credit">Credit card</label>
-              </div>
-              <div class="form-check">
-                <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required>
-                <label class="form-check-label" for="debit">Debit card</label>
-              </div>
-              <div class="form-check">
-                <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required>
-                <label class="form-check-label" for="paypal">PayPal</label>
-              </div>
-            </div>
-  
-            <div class="row gy-3">
-              <div class="col-md-6">
-                <label for="cc-name" class="form-label">Name on card</label>
-                <input type="text" class="form-control" id="cc-name" placeholder="" required>
-                <small class="text-body-secondary">Full name as displayed on card</small>
-                <div class="invalid-feedback">
-                  Name on card is required
-                </div>
-              </div>
-  
-              <div class="col-md-6">
-                <label for="cc-number" class="form-label">Credit card number</label>
-                <input type="text" class="form-control" id="cc-number" placeholder="" required>
-                <div class="invalid-feedback">
-                  Credit card number is required
-                </div>
-              </div>
-  
-              <div class="col-md-3">
-                <label for="cc-expiration" class="form-label">Expiration</label>
-                <input type="text" class="form-control" id="cc-expiration" placeholder="" required>
-                <div class="invalid-feedback">
-                  Expiration date required
-                </div>
-              </div>
-  
-              <div class="col-md-3">
-                <label for="cc-cvv" class="form-label">CVV</label>
-                <input type="text" class="form-control" id="cc-cvv" placeholder="" required>
-                <div class="invalid-feedback">
-                  Security code required
-                </div>
-              </div>
-            </div> -->
 
             <div class="form-group">
                 <label for="InfoProblema">Informações sobre seu Problema </label>
                 <textarea class="form-control" id="InfoProblema" rows="3"></textarea>
               </div>
+
+              <hr class="my-4">
+
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="save-info">
+                <label class="form-check-label" for="save-info">Salvar informações para consultas futuras</label>
+            </div>
+            
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="presencial">
+                <label class="form-check-label" for="presencial">Presencial</label>
+            </div>
+            
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="online">
+                <label class="form-check-label" for="online">Online</label>
+            </div>
+            
   
             <hr class="my-4">
   
@@ -211,6 +166,10 @@
         </div>
       </div>
     </main>
+
+    <div>
+      <hr class="container text-dark">
+  </div>   
   
     <footer class="my-5 pt-5 text-body-secondary text-center text-small">
       <p class="mb-1">&copy; 2023 MedHorizon</p>
@@ -221,6 +180,7 @@
       </ul>
     </footer>
   </div>
+
   <script src="/docs/5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
