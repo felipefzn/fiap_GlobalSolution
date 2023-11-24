@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A9DBBE60-5E0B-AE99-00D2-507984C39A55" name="TipoConsulta">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 18:09:00 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdTipoConsulta" id="3A36C618-83A8-B4BF-14FA-320BAC0BB845">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 18:09:42 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>36</dataTypeSize>
+<ownDataTypeParameters>36,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descricao" id="935F6CBF-AD33-F09A-193E-41E17F5418BD">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 18:09:42 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="23B58207-0773-54B7-3A76-9C90F6E279F2" name="TipoConsulta_PK">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 18:34:49 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A36C618-83A8-B4BF-14FA-320BAC0BB845"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

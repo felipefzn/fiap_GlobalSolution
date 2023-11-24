@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7DA03EC6-4F4A-85EA-24F2-E594787D1E29" name="Usuario">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 17:55:30 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdUsuario" id="1B6E1441-A54A-DCAD-2828-9FCCDE78AAE6">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 17:55:53 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>36</dataTypeSize>
+<ownDataTypeParameters>36,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="E8310DF5-D757-DD9F-EA15-F383F0294C3B">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 17:56:06 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sobrenome" id="5E8E73D9-E451-EA9B-5A29-613DD7C7BDCA">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 17:56:26 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nascimento" id="919E51E9-396B-C928-BD2C-22DF61AFB59A">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 17:56:26 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefone" id="8FBD7AFE-06B3-9D6B-4B0F-B6F889F357E7">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 17:56:26 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpf" id="81DBA5E0-2160-1099-3C71-7A27CD5B3A32">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 17:56:26 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="56FB7942-6E4B-402D-28D8-0BC9A98C0A19">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 17:57:14 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="senha" id="D2C20C55-E256-FF7A-25CD-916E6830A241">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 17:57:21 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="416ED95A-B7DF-99B2-0D10-C19272B21E78" name="Usuario_PK">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 17:55:53 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B6E1441-A54A-DCAD-2828-9FCCDE78AAE6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

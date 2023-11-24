@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="85217201-05C2-01E5-6AB1-F9E5631F45F8" name="Historico">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 18:10:43 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdHistorico" id="53CA9023-74DF-9885-D16F-10067D1F9B57">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 18:12:16 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>36</dataTypeSize>
+<ownDataTypeParameters>36,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IdTipoConsulta" id="9EAE6B70-B510-024A-F473-1D8F1B22227A">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 18:34:51 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>36</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E180D333-FF65-412C-E927-3E448980C353" referredColumn="3A36C618-83A8-B4BF-14FA-320BAC0BB845"/>
+</associations>
+</Column>
+<Column name="nome" id="E08F5B5F-A9AB-CF39-C78A-1C6D10E6CF7F">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 18:13:33 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hora" id="98E02C76-171E-BBDA-A4CE-C16F7BD0FAAC">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 18:13:43 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data" id="8CD7C533-F5B2-FD5E-172A-0E46550643A7">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 18:13:52 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="informacoes" id="C1B57969-65B5-11BF-561B-933994EBF283">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 18:14:06 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IdMedico" id="1D67825E-D596-4760-752E-ED9B14B23857">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 18:42:10 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5E6FA933-07C3-CCA0-0AD3-0EE2CF1C0E1D" referredColumn="61239FFF-E6C0-4965-AA5D-F5CA53FEA9D9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="454F123E-3213-C8A3-407C-BC17DEB4F28A" name="Historico_PK">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 18:12:16 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="53CA9023-74DF-9885-D16F-10067D1F9B57"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B1D05C50-6E14-F329-E0D0-2849942CB80F" name="Historico_TipoConsulta_FK">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 18:34:51 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9EAE6B70-B510-024A-F473-1D8F1B22227A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F45D05D2-0A02-968C-23E1-F1274340A93E" name="Historico_Medico_FK">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 18:42:10 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D67825E-D596-4760-752E-ED9B14B23857"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

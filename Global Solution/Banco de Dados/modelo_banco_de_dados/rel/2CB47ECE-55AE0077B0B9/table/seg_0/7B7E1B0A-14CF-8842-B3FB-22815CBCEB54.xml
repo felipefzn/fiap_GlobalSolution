@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7B7E1B0A-14CF-8842-B3FB-22815CBCEB54" name="PrevencaoDoencas">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 18:07:04 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdDoenca" id="6540DF4F-DD2F-771E-B09A-7615BE60A164">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 18:07:24 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>36</dataTypeSize>
+<ownDataTypeParameters>36,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descricao" id="BEBCFFC4-0D47-EEFD-1A18-7B9B4C3F8460">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 18:07:36 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="caminho_foto" id="833483A3-BA38-94DD-BFF6-DC0CF6B7DE0D">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 18:08:13 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6A507D19-5FC1-2156-A3D1-692BB6F860DA" name="PrevencaoDoencas_PK">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 18:07:24 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6540DF4F-DD2F-771E-B09A-7615BE60A164"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

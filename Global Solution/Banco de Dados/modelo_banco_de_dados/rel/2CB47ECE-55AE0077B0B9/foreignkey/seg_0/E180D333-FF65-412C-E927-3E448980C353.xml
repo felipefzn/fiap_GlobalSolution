@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E180D333-FF65-412C-E927-3E448980C353" containerWithKeyObject="85217201-05C2-01E5-6AB1-F9E5631F45F8" localFKIndex="B1D05C50-6E14-F329-E0D0-2849942CB80F" name="Historico_TipoConsulta_FK">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 18:34:51 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<referredTableLongName>TipoConsulta</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A9DBBE60-5E0B-AE99-00D2-507984C39A55</referredTableID>
+<keyObject>23B58207-0773-54B7-3A76-9C90F6E279F2</keyObject>
+<referredKeyID>23B58207-0773-54B7-3A76-9C90F6E279F2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IdTipoConsulta</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="39485FE5-A485-2CFB-83B9-B82FFC1A57AC" containerWithKeyObject="67D41BF0-9E06-D6D4-5C64-B50D4B55866E" localFKIndex="53A2433E-9B93-A1C1-78AF-AC19F2279716" name="Agendamento_InfoAdicional_FK">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 18:05:58 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<referredTableLongName>InfoAdicional</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0FBC1446-939E-4CE0-DE33-5CC7026DC9DB</referredTableID>
+<keyObject>3DE8C531-B6FC-B16E-2899-A99F6A229C40</keyObject>
+<referredKeyID>3DE8C531-B6FC-B16E-2899-A99F6A229C40</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IdInfoAdicional</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

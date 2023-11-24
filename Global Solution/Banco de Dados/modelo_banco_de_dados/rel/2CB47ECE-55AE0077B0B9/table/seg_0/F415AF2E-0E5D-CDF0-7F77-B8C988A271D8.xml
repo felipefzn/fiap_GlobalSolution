@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F415AF2E-0E5D-CDF0-7F77-B8C988A271D8" name="Medico">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 18:38:52 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdMedico" id="61239FFF-E6C0-4965-AA5D-F5CA53FEA9D9">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 18:40:01 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IdTipoEspecialidade" id="246905DE-C531-9BE0-CEED-F6886268DF86">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 18:39:27 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2119E6BE-1333-EA0C-F987-004F4D4D7920" referredColumn="6AD21089-EA87-2AF2-921A-65EF065E3418"/>
+</associations>
+</Column>
+<Column name="nome" id="377DC1B7-A429-3EF7-AD28-8D031E568BB5">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 18:43:01 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sobrenome" id="9593E12C-994B-5AAB-823D-C217E83DAA9A">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 18:43:16 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="local" id="6DD3B48D-47C6-F341-75C8-26984533D803">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 18:43:16 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>35</dataTypeSize>
+<ownDataTypeParameters>35,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefone" id="942D7639-A4E3-408F-16D4-5B8EC0A25DB0">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 18:43:16 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="1821ABD6-3E9C-E1C9-ADA3-7FF8E45D0928">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 18:43:16 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="horarioTrabalho" id="80A07CFE-0820-838D-5EBE-5ED5E49D5412">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 18:44:02 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1334F983-4578-D336-AAB0-04C01FF4C887" name="Medico_PK">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 18:39:23 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61239FFF-E6C0-4965-AA5D-F5CA53FEA9D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BEA1CB64-0DC9-D380-48F7-A00C55854EF0" name="Medico_TipoEspecialidade_FK">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 18:39:27 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="246905DE-C531-9BE0-CEED-F6886268DF86"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

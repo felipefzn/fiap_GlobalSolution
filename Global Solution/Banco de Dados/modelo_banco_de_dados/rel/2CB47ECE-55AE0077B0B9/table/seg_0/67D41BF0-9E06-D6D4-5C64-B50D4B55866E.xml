@@ -1,0 +1,197 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="67D41BF0-9E06-D6D4-5C64-B50D4B55866E" name="Agendamento">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 17:57:51 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdAgendamento" id="11B47E0F-BF67-0C18-7D20-3132BDA06066">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 17:58:47 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>36</dataTypeSize>
+<ownDataTypeParameters>36,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IdUsuario" id="537CBDF5-CCDF-4D7C-4505-409EC29EA4E9">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 17:59:16 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>36</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ACF71C05-8B1B-2F02-2A68-DFBD9F0053C4" referredColumn="1B6E1441-A54A-DCAD-2828-9FCCDE78AAE6"/>
+</associations>
+</Column>
+<Column name="IdInfoAdicional" id="FC3D0789-58F5-ED3D-45E5-2A6957E66E80">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 18:05:58 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>36</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="39485FE5-A485-2CFB-83B9-B82FFC1A57AC" referredColumn="0AD0CA2F-A8C6-B6A8-42C6-9DE04C3929E7"/>
+</associations>
+</Column>
+<Column name="nome" id="150AA56D-2093-D1E4-2C36-CA536E6292F6">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 18:00:11 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sobrenome" id="83706E78-D2C1-75AE-00BA-6E15CD483FE3">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 18:00:47 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="37B5DAD6-2573-9156-72F3-B8D3175C3806">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 18:00:47 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="endereco" id="450F000A-6083-28C9-24D5-9FDF4F020854">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 18:00:47 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="endereco_2" id="C1A32A12-9C4E-DF1D-4E55-09E66C2C165A">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 18:00:47 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="informacoes" id="23DD57E3-63D7-EC1E-3685-0852ACB84ECD">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 18:00:47 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pais" id="A1E01887-FE0B-3766-17C8-6A4D41E965AB">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 18:00:47 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="0174D327-5DBE-1C1A-EB42-C997B5EECF3D">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 18:00:47 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="presencial" id="853E6AA1-8D93-D9D2-8D63-3BA8399497D1">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 18:01:30 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="online" id="DE43D6C6-06F5-F715-A171-51BA0B256E6C">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 18:01:37 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C0DFDB38-1B2F-6F29-253A-E8A0508C5D1B" name="Agendamento_PK">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 17:58:47 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="11B47E0F-BF67-0C18-7D20-3132BDA06066"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2D2E316F-7B92-7908-B13E-1AA4D686FFD2" name="Agendamento_Usuario_FK">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 17:59:16 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="537CBDF5-CCDF-4D7C-4505-409EC29EA4E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="53A2433E-9B93-A1C1-78AF-AC19F2279716" name="Agendamento_InfoAdicional_FK">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 18:05:58 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC3D0789-58F5-ED3D-45E5-2A6957E66E80"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
