@@ -1,0 +1,227 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="212F6309-94B7-D9E4-F0E5-5F213CF8FD58" name="Agendamento">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 17:26:55 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<engineerTo>
+<item key="2CB47ECE-2884-B7CA-1067-55AE0077B0B9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdAgendamento" id="122B5339-3DA1-99FD-A7CA-4EBF1396F209">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 17:27:18 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<engineerTo>
+<item key="2CB47ECE-2884-B7CA-1067-55AE0077B0B9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>36</dataTypeSize>
+<ownDataTypeParameters>36,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdInfoAdicional" id="87AE8A81-BA0C-AF15-EF39-0DAD70E14015">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 17:37:05 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<engineerTo>
+<item key="2CB47ECE-2884-B7CA-1067-55AE0077B0B9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>36</dataTypeSize>
+<ownDataTypeParameters>36,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdUsuario" id="1C65DBBB-030C-C81B-46BE-19D55E71F31C">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-25 01:45:22 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<engineerTo>
+<item key="2CB47ECE-2884-B7CA-1067-55AE0077B0B9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>36</dataTypeSize>
+<ownDataTypeParameters>36,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="1548FF77-F820-E846-D1F2-23CAB6BBBCF2">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 17:27:39 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<engineerTo>
+<item key="2CB47ECE-2884-B7CA-1067-55AE0077B0B9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sobrenome" id="E8975AB6-3F4F-E9FB-9378-F581174F14D4">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 17:27:56 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<engineerTo>
+<item key="2CB47ECE-2884-B7CA-1067-55AE0077B0B9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="CCF5F30B-539E-4E76-0217-5B1817886ABD">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 17:27:57 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<engineerTo>
+<item key="2CB47ECE-2884-B7CA-1067-55AE0077B0B9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="endereco" id="AC3178F9-2BAB-097A-9975-8630A81A4F71">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 17:27:58 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<engineerTo>
+<item key="2CB47ECE-2884-B7CA-1067-55AE0077B0B9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="endereco_2" id="E79EEA55-4961-1866-DDDC-2E196E841B49">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 17:27:59 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<engineerTo>
+<item key="2CB47ECE-2884-B7CA-1067-55AE0077B0B9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="informacoes" id="76BDC63A-C18C-49C5-9334-FDEA9383BD3D">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 17:28:01 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<engineerTo>
+<item key="2CB47ECE-2884-B7CA-1067-55AE0077B0B9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pais" id="325E944B-E55E-0045-008E-68D91E81664F">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 17:29:06 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<engineerTo>
+<item key="2CB47ECE-2884-B7CA-1067-55AE0077B0B9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado" id="A24ED583-4579-6F95-E9D4-023C2523D651">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 17:36:07 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<engineerTo>
+<item key="2CB47ECE-2884-B7CA-1067-55AE0077B0B9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="presencial" id="281625DE-7373-2C41-3672-E3A48DFACC29">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 17:36:15 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<engineerTo>
+<item key="2CB47ECE-2884-B7CA-1067-55AE0077B0B9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="online" id="E3904AFE-81DB-3E1E-0F39-903CE5939EF1">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 17:36:45 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<engineerTo>
+<item key="2CB47ECE-2884-B7CA-1067-55AE0077B0B9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdUsuario1" id="1A27C224-2A88-B345-9B22-82711BB61CCC">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-25 01:49:46 UTC</createdTime>
+<generatorID>CA968AB5-70A4-E32E-436E-F9A562858E5A</generatorID>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<engineerTo>
+<item key="2CB47ECE-2884-B7CA-1067-55AE0077B0B9" value="true"/>
+</engineerTo>
+<referedAttribute>87F2C0D7-B4DA-5800-FFE8-31556DA94B23</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>36</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdInfoAdicional1" id="184F282C-316D-7E94-2559-D077667606FC">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-25 01:50:10 UTC</createdTime>
+<generatorID>2B695184-7C0E-009A-A7B2-897B2C465B03</generatorID>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<engineerTo>
+<item key="2CB47ECE-2884-B7CA-1067-55AE0077B0B9" value="true"/>
+</engineerTo>
+<referedAttribute>65240A5F-169D-660C-08C5-366A41E39531</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>36</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0415A1E2-A11F-91F4-6084-15C04E759834" name="Agendamento PK">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 17:27:27 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<engineerTo>
+<item key="2CB47ECE-2884-B7CA-1067-55AE0077B0B9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>122B5339-3DA1-99FD-A7CA-4EBF1396F209</newElementsIDs>
+<usedAttributes>
+<attributeRef>122B5339-3DA1-99FD-A7CA-4EBF1396F209</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

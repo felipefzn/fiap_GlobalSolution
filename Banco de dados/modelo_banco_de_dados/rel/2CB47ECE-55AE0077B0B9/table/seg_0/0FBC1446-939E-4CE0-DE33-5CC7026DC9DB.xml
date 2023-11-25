@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0FBC1446-939E-4CE0-DE33-5CC7026DC9DB" name="InfoAdicional">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 18:01:58 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdInfoAdicional" id="0AD0CA2F-A8C6-B6A8-42C6-9DE04C3929E7">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 18:02:38 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>36</dataTypeSize>
+<ownDataTypeParameters>36,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipoSanguineo" id="895F4CB4-E804-7E25-6F87-CAE905AF9255">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 18:03:17 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="alergiaRemedios" id="8331298A-7EA6-89D6-F17E-BE946FE661AB">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 18:03:34 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="alergiaDiversos" id="DCE90488-801F-85CF-A536-7C7ACED31344">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 18:04:09 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cirurgia" id="05164989-C46C-F8E1-916D-D21A5027401D">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 18:04:24 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipoCirurgia" id="C9EE6C04-E492-E16E-F6E3-416C047E4EA2">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 18:04:42 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3DE8C531-B6FC-B16E-2899-A99F6A229C40" name="InfoAdicional_PK">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 18:02:38 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0AD0CA2F-A8C6-B6A8-42C6-9DE04C3929E7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FA5BD0B4-3F46-5DFB-09BC-1E1D2990E472" name="InfoAdicional">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 17:37:37 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<engineerTo>
+<item key="2CB47ECE-2884-B7CA-1067-55AE0077B0B9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdInfoAdicional" id="65240A5F-169D-660C-08C5-366A41E39531">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 17:37:46 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<engineerTo>
+<item key="2CB47ECE-2884-B7CA-1067-55AE0077B0B9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>36</dataTypeSize>
+<ownDataTypeParameters>36,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipoSanguineo" id="71746288-5550-891E-BD5A-716233512A85">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 17:38:16 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<engineerTo>
+<item key="2CB47ECE-2884-B7CA-1067-55AE0077B0B9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="alergiaRemedios" id="000BDAFE-C1C5-BA97-CD4C-89C207E75E81">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 17:38:42 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<engineerTo>
+<item key="2CB47ECE-2884-B7CA-1067-55AE0077B0B9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="alergiaDiversos" id="002F64BA-E4FF-F278-F0B3-F4D165338229">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 17:39:04 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<engineerTo>
+<item key="2CB47ECE-2884-B7CA-1067-55AE0077B0B9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cirurgia" id="E45C0FB4-F06B-8DD9-2AAC-7E3EAB565C19">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 17:39:25 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<engineerTo>
+<item key="2CB47ECE-2884-B7CA-1067-55AE0077B0B9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT034</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipoCirurgia" id="CE37ECA4-293F-C2D6-5310-34B64522C4CD">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 17:39:43 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<engineerTo>
+<item key="2CB47ECE-2884-B7CA-1067-55AE0077B0B9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6C7FC9C5-AE34-D312-4FB3-357349975B5E" name="InfoAdicional PK">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 17:37:53 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<engineerTo>
+<item key="2CB47ECE-2884-B7CA-1067-55AE0077B0B9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>65240A5F-169D-660C-08C5-366A41E39531</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

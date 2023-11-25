@@ -1,0 +1,149 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AFBE3F42-C14C-C229-14B5-57AC4E5F0791" name="Historico">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 17:42:25 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<engineerTo>
+<item key="2CB47ECE-2884-B7CA-1067-55AE0077B0B9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IdHistorico" id="3AD8FC88-EFBF-37A0-ED43-52A3838C4E70">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 17:42:33 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<engineerTo>
+<item key="2CB47ECE-2884-B7CA-1067-55AE0077B0B9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>36</dataTypeSize>
+<ownDataTypeParameters>36,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdTipoConsulta" id="79A68A10-D9DC-A4D7-0E37-FA05B429C2E3">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 17:43:21 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<engineerTo>
+<item key="2CB47ECE-2884-B7CA-1067-55AE0077B0B9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>36</dataTypeSize>
+<ownDataTypeParameters>36,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdMedico" id="6C7C5084-28C9-B582-562E-E3D8CA8CBD40">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 17:46:58 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<engineerTo>
+<item key="2CB47ECE-2884-B7CA-1067-55AE0077B0B9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="8E664986-2D75-79DB-D114-F99F78AA4590">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 17:42:58 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<engineerTo>
+<item key="2CB47ECE-2884-B7CA-1067-55AE0077B0B9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hora" id="7F570DB4-BC43-B850-00DA-521B6ED931C1">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 17:46:23 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<engineerTo>
+<item key="2CB47ECE-2884-B7CA-1067-55AE0077B0B9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data" id="F7D916F0-6F21-AB1A-24ED-30BFD8F4E4D9">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 17:46:34 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<engineerTo>
+<item key="2CB47ECE-2884-B7CA-1067-55AE0077B0B9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="informacoes" id="09BDF430-04B9-03EC-A946-2CA5BFA5F835">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 17:46:43 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<engineerTo>
+<item key="2CB47ECE-2884-B7CA-1067-55AE0077B0B9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdTipoConsulta1" id="C147C533-B506-B12C-FBDD-2BD42617A607">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-25 01:50:22 UTC</createdTime>
+<generatorID>37D85D07-7E8F-7519-B9B9-7CF14734D955</generatorID>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<engineerTo>
+<item key="2CB47ECE-2884-B7CA-1067-55AE0077B0B9" value="true"/>
+</engineerTo>
+<referedAttribute>E6F9D079-FF49-F62D-9F1F-27D2419D852D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IdMedico1" id="8492F348-FEE9-6B9A-E5BF-B7C6DE5AEA76">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-25 01:51:05 UTC</createdTime>
+<generatorID>CB6C1657-7B82-1AD8-D160-A578144172B2</generatorID>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<engineerTo>
+<item key="2CB47ECE-2884-B7CA-1067-55AE0077B0B9" value="true"/>
+</engineerTo>
+<referedAttribute>E5CD8C26-665F-EB07-DAAA-326202927FD8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>36</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="97B26C39-6793-DBC7-2D10-4998197C4DCF" name="Historico PK">
+<createdBy>felip</createdBy>
+<createdTime>2023-11-24 17:42:56 UTC</createdTime>
+<ownerDesignName>modelo_banco_de_dados</ownerDesignName>
+<engineerTo>
+<item key="2CB47ECE-2884-B7CA-1067-55AE0077B0B9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>3AD8FC88-EFBF-37A0-ED43-52A3838C4E70</newElementsIDs>
+<usedAttributes>
+<attributeRef>3AD8FC88-EFBF-37A0-ED43-52A3838C4E70</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
